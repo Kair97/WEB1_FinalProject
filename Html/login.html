@@ -12,12 +12,25 @@
 <div class="container">
   <div>
     <div>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted"></small>
+      <h2 class="text-center">Login</h2>
+      <form class="form-group">
+        
+          <div>
+            <label for="email" class="form-label">Email</label><br>
+            <input type="email" id="email" placeholder="Email" class="form-control">
+            <span id="emailE" style="color: red"></span><br>
+          </div>
+
+          <div>
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" placeholder="Email" class="form-control">
+            <span id="pasE" style="color: red"></span><br>
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-dark text-center">Login</button>
         </div>
+
       </form>
     </div>
   </div>
